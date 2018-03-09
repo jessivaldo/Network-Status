@@ -10,7 +10,7 @@ npm install
 sudo npm install -g pm2
 
 
-next step
+# next step
 
 nano app.json
 
