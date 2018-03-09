@@ -1,5 +1,4 @@
-# Network-Status
-Clona.ru Network Status Monitor [musicoin] [vic] [daxx] [dbix] ....
+#Clona.ru Network Status Monitor [musicoin] [vic] [daxx] [dbix] ....
 
 
 Clone the git repo, then install pm2:
@@ -10,13 +9,13 @@ npm install
 sudo npm install -g pm2
 
 
-# next step
+# next step (editing app.json)
 
 nano app.json
 
 
 
-next step
+# next step
 
 pm2 start app.json  ( and next showm and monitoring you node )
 pm2 kill ( kill all process pm2 )
