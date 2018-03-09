@@ -12,6 +12,7 @@ sudo npm install -g pm2
 nano app.json
 
 [
+
 {
     "name"              : "musicoin",
     "script"            : "app.js",
