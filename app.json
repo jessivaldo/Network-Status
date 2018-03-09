@@ -1,0 +1,384 @@
+[
+{
+    "name"              : "musicoin",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "[clona.ru solo] - reserve2 node",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:3000",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "daxx",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "7777",
+      "LISTENING_PORT"  : "33333",
+      "INSTANCE_NAME"   : "[clona.ru solo] - reserve2 node",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:90",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "vic",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8599",
+      "LISTENING_PORT"  : "30311",
+      "INSTANCE_NAME"   : "[clona.ru solo] - reserve2 node",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:92",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "dbix",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "7474",
+      "LISTENING_PORT"  : "40000",
+      "INSTANCE_NAME"   : "[clona.ru solo] - reserve4 node",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:3005",
+      "WS_SECRET"       : "1234",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "etc",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8546",
+      "LISTENING_PORT"  : "30304",
+      "INSTANCE_NAME"   : "etc",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "exp",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "9656",
+      "LISTENING_PORT"  : "42786",
+      "INSTANCE_NAME"   : "exp",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "mc",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "mc",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "dbix",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "7565",
+      "LISTENING_PORT"  : "57955",
+      "INSTANCE_NAME"   : "dbix",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "ubiq",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8588",
+      "LISTENING_PORT"  : "30388",
+      "INSTANCE_NAME"   : "ubiq",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "pirl",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "6588",
+      "LISTENING_PORT"  : "30309",
+      "INSTANCE_NAME"   : "pirl",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "ella",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "9898",
+      "LISTENING_PORT"  : "32329",
+      "INSTANCE_NAME"   : "ella",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "daxx",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "7777",
+      "LISTENING_PORT"  : "33333",
+      "INSTANCE_NAME"   : "daxx",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "nuko",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8292",
+      "LISTENING_PORT"  : "28568",
+      "INSTANCE_NAME"   : "nuko",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "vic",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8599",
+      "LISTENING_PORT"  : "30311",
+      "INSTANCE_NAME"   : "vic",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  },
+
+
+
+{
+    "name"              : "aka",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "testnode2",
+      "RPC_HOST"        : "192.168.0.37",
+      "RPC_PORT"        : "8444",
+      "LISTENING_PORT"  : "30299",
+      "INSTANCE_NAME"   : "aka",
+      "CONTACT_DETAILS" : "skype: clona-net",
+      "WS_SERVER"       : "192.168.0.110:93",
+      "WS_SECRET"       : "123",
+      "VERBOSITY"       : 2
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+]
