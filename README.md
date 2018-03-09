@@ -31,3 +31,27 @@ pm2 kill ( kill all process pm2 )
 "WS_SERVER" : "clona.ru:3000", // path to etc-netstats WebSockets api server
 
 "WS_SECRET" : "123", // WebSockets api server secret used for login
+
+
+#dbix
+
+"WS_SERVER" : "clona.ru:3005", // path to etc-netstats WebSockets api server
+
+"WS_SECRET" : "1234", // WebSockets api server secret used for login
+
+
+#daxx
+
+"WS_SERVER" : "clona.ru:90", // path to etc-netstats WebSockets api server
+
+"WS_SECRET" : "123", // WebSockets api server secret used for login
+
+
+
+#vic
+"WS_SERVER" : "clona.ru:92", // path to etc-netstats WebSockets api server
+"WS_SECRET" : "123", // WebSockets api server secret used for login
+
+
+
+
