@@ -29,4 +29,5 @@ pm2 kill ( kill all process pm2 )
 #musicoin 
 
 "WS_SERVER" : "clona.ru:3000", // path to etc-netstats WebSockets api server
+
 "WS_SECRET" : "123", // WebSockets api server secret used for login
