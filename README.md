@@ -49,7 +49,9 @@ pm2 kill ( kill all process pm2 )
 
 
 #vic
+
 "WS_SERVER" : "clona.ru:92", // path to etc-netstats WebSockets api server
+
 "WS_SECRET" : "123", // WebSockets api server secret used for login
 
 
